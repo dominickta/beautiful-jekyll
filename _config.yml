@@ -1,7 +1,6 @@
 url: "https://homes.cs.washington.edu"
 baseurl: "/~domta/_site/"
 
-
 # --- Basic options --- #
 
 # Name of website
@@ -16,23 +15,24 @@ author: Dominick Ta
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+  Bio: "aboutme"
+  Posts: "posts"
+  Projects: "projects"
+  Courses Taken:  
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/cartoon_profile.jpg"
+avatar: "/assets/img/cartoon_square.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-title-img: "/assets/img/cartoon_profile.jpg"
+title-img: "/assets/img/cartoon_square.jpg"
 
 
 # --- Footer options --- #
@@ -45,7 +45,7 @@ social-network-links:
   facebook: dominick.ta.7
 # github: daattali
 # twitter: daattali
-  rss: true
+# rss: true
 #  reddit: yourname
   linkedin: dominickta
 #  xing: yourname
@@ -91,7 +91,8 @@ excerpt_length: 50
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 # purple: #8386d8
 # green: #95bf74
-navbar-col: "#95bf74"
+# olive: #9ebd7d
+navbar-col: "#9ebd7d"
 navbar-text-col: "#404040"
 navbar-border-col: "#EAEAEA"
 page-col: "#FFFFFF"
@@ -106,7 +107,7 @@ footer-link-col: "#404040"
 # instead of colour
 
 #navbar-img: "/assets/img/bgimage.png"
-footer-img: "/assets/img/bgimage.png"
+#footer-img: "/assets/img/bgimage.png"
 #page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
