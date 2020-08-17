@@ -18,7 +18,7 @@ use-site-title: true
 - have two dogs: moose and cooper
 - attended south shore pk-8 school, formerly 'the new school'
 - attended cleveland stem high school
-- 
+- woo 
 
 #### Interests
 - video games
