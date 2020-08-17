@@ -1,5 +1,5 @@
 url: "https://homes.cs.washington.edu"
-baseurl: "/~domta/_site/"
+baseurl: "/~domta"
 
 # --- Basic options --- #
 
@@ -7,7 +7,7 @@ baseurl: "/~domta/_site/"
 title: dom's domain
 
 # Short description of your site
-description: woo!
+description: woah there buckaroo
 
 # Your name to show in the footer
 author: Dominick Ta
@@ -16,11 +16,14 @@ author: Dominick Ta
 
 navbar-links:
   Bio: "aboutme"
-  Posts: "posts"
-  Projects: "projects"
-  Courses Taken:  
+  Journal: "posts"
+  Work: "work"
   Resources:
-
+    - Books to Read: "books"
+    - Learn to Code: "code"
+    - Cool Sites: "websites"
+    - Teaching Notes: "teaching"
+  Course History: "courses"
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
@@ -32,7 +35,7 @@ round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-title-img: "/assets/img/cartoon_square.jpg"
+#title-img: "/assets/img/cartoon_square.jpg"
 
 
 # --- Footer options --- #
@@ -90,16 +93,18 @@ excerpt_length: 50
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 # purple: #8386d8
+# lavender: #DEDAFC
 # green: #95bf74
 # olive: #9ebd7d
-navbar-col: "#9ebd7d"
-navbar-text-col: "#404040"
-navbar-border-col: "#EAEAEA"
-page-col: "#FFFFFF"
+# mint: #AAD2A7
+navbar-col: "#e8e6fa" #lavender
+navbar-text-col: "#404040" #gray
+navbar-border-col: "#EAEAEA" #light gray
+page-col: "#fffefa" #off-white
 text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#F5F5F5"
+link-col: "#7777bb" #purple
+hover-col: "#0085A1" #cyan
+footer-col: "#e6e4df" #tan-grey
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 
@@ -204,23 +209,23 @@ defaults:
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
       readtime: false # add estimated reading time on all blog posts
+      ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
+      use-site-title: true
   -
     scope:
       path: "" # all files
     values:
       layout: "page"
       show-avatar: true
+      use-site-title: true
+      ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
 
 # Exclude these files from production site
 exclude:
-  - CHANGELOG.md
   - CNAME
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - README.md
-  - screenshot.png
-  - docs/
 
 plugins:
   - jekyll-paginate
@@ -228,4 +233,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-

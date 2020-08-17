@@ -1,7 +1,14 @@
 <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% endif %}">
 
   {%- if site.title-img -%}
-    <a class="navbar-brand navbar-brand-logo" href="{{ '' | absolute_url }}"><img alt="{{ site.title }} Logo" src="{{ site.title-img | relative_url }}"/></a>
+    <a class="navbar-brand navbar-brand-logo" href="{{ '' | absolute_url }}">
+    <div style="
+    border-radius: 50%;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 0.3125rem rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 0.5rem rgba(0, 0, 0, .8);">
+      <img alt="{{ site.title }} Logo" src="{{ site.title-img | relative_url }}"/></a>
+    </div>
   {%- elsif site.title -%}
     <a class="navbar-brand" href="{{ '' | absolute_url }}">{{ site.title }}</a>
   {%- endif -%}

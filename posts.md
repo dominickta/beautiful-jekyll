@@ -1,5 +1,6 @@
 ---
 layout: home
-title: Blog
+title: dom's journal
+subtitle: a home for thoughts, reflections, and memories
 ---
 
